@@ -1,0 +1,1 @@
+export const NOTE_REPOSITORY: string = "NOTE_REPOSITORY";

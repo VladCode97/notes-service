@@ -8,6 +8,10 @@ export class ExpressConfig {
     static initConfig(): void {
         useContainer(Container);
         createExpressServer({
+            cors: {
+                origin: '*',
+                optionsSuccessStatus: 200
+            },
             controllers: [
                 NotesController
             ]
